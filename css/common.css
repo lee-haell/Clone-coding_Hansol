@@ -180,7 +180,7 @@ header .spot li:last-child a {
 /* 매거진 */
 .magazine {
   background: #dfd9d1;
-  height: 837px;
+  height: 750px;
   position: relative;
   overflow: hidden;
 }
@@ -523,6 +523,58 @@ header .spot li:last-child a {
 .footer_top .footer_top_info select {
   width: 160px;
   height: 60px;
+}
+
+/* footer 하단 */
+.footer_bottom {
+  padding: 60px 52px;
+  height: 140px;
+  background: #4c5459;
+  color: #e5e6e7;
+}
+.footer_bottom .footer_logo a {
+  display: block;
+  width: 130px;
+  height: 50px;
+  background: url("../images/sp_com.png") -150px 0;
+  margin: 0 0 40px 0;
+}
+.footer_bottom .footer_bottom_info ul {
+  float: left;
+}
+.footer_bottom .footer_bottom_info li:nth-child(1),
+.footer_bottom .footer_bottom_info li:nth-child(3) {
+  display: inline-block;
+  margin: 0 0 10px 0;
+}
+.footer_bottom .footer_bottom_info span {
+  display: inline-block;
+  width: 2px;
+  height: 10px;
+  background: #949394;
+  margin: 0 10px;
+}
+.footer_bottom .footer_bottom_info .footer_sns {
+  float: right;
+}
+.footer_bottom .footer_bottom_info .footer_sns a {
+  display: block;
+  float: left;
+  color: transparent;
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
+  margin: 0 20px 0 0;
+}
+.footer_bottom .footer_bottom_info .footer_sns a:nth-child(1) {
+  background: url("../images/sp_com.png")-321px -607px;
+}
+.footer_bottom .footer_bottom_info .footer_sns a:nth-child(2) {
+  background: url("../images/sp_com.png")-368px -607px;
+}
+.footer_bottom .footer_bottom_info .footer_sns a:nth-child(3) {
+  background: url("../images/sp_com.png")-415px -607px;
+  margin: 0;
 }
 
 /* slide 공통 */
